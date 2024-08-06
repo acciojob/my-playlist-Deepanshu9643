@@ -4,13 +4,73 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+
+     body{
+		 background-color:rgb(204,204,204)
+	 }  
+		
+		.heading1{
+			text-align:center;
+		}
+		.heading2{
+			text-align:center;
+		}
+		.heading3{
+			text-align:center;
+		}
+		
+		.songs{
+			list-style-type:none;
+			text-decoration-line:none;
+			border:2px solid:black;
+		}
+
+   .player_one{
+	             background-color: rgb(255, 255, 255);
+	             padding: 20px;
+	            border-radius:10px;
+       }
+
+		
+	</style>
+	
+
+   
+	
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <script type="text/javascript" src="./script.js"></script>
 
+	<h1 class="heading1">My Playlist</h1>
+	<div class="songs">
+		<ul>
+			<li>I can't pretend</li>
+			<li>Stronger</li>
+			<li>Gliter and Gold</li>
+		</ul>
+		<a href="" target="_blank"></a>
+	</div>
+
+	<h2 class="heading2">Now Playing...</h2>
+	
+	<div class="player_one">
+		
+		<video controls>
+			<source src="https://www.w3schools.com/tags/movie.mp4" type="">
+		</video>
+	</div>
+
+	<h2 class="heading3">MP3 songs</h2>
+   <div class="player_two">
+	   <audio controls>
+		   <source src="https://www.pagalworld.com.se/files/download/id/64630" type="">
+	   </audio>
+   </div>
+
+	
 </body>
 
 </html>
